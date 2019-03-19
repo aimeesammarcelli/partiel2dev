@@ -1,0 +1,162 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+a{
+    color: black
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+p a{
+    margin: 12px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 580px;
+}
+
+.monsite{
+    background-color: chocolate;
+    width: 600px;
+    text-align: center;
+}
+
+.monsite img{
+    width: 50%;
+}
+
+.legende{
+    margin-top: 0;
+} 
+
+.comment{
+    background-color: chocolate;
+    width: 250px;
+    margin:2px;;
+}
+
+.options{
+    background-color: chocolate;
+    width: 250px;
+    margin:2px;
+}
+
+.commencer{
+    background-color: chocolate;
+    width: 504px; 
+    margin: 2px;
+}
+
+.bre{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cube{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.fleche{
+    text-align: right;
+}
+
+.footer{
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+}
+
+.footer p{
+    margin: 5%;
+}
+
+
+.ml15 {
+    font-weight: 800;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .menu{
+        margin-left: 0px;
+    }
+    .comment{
+        width: 100%
+    }
+
+    .options{
+        width: 100%
+    }
+  }
+
+
+  @media only screen and (max-width: 667px) {
+  
+
+    .cube{
+        flex-direction: column;
+    }
+
+    .monsite{
+       width: 100%; 
+    }
+
+    .bre{
+        width: 100%
+    }
+
+    .comment{
+        width: 100%
+    }
+
+    .options{
+        width: 100%
+    }
+
+    .commencer{
+        width: 100%
+    }
+    
+  }
